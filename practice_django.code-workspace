@@ -23,7 +23,7 @@
 		"python.analysis.autoImportCompletions": true,
 		"python.analysis.typeCheckingMode": "basic",
 		"editor.formatOnSave": true,
-		"python.formatting.provider": "black",
+		"python.formatting.provider": "none",
 		"explorer.copyRelativePathSeparator": "/",
 		"python.formatting.autopep8Args": [
 			"--max-line-length",
@@ -35,6 +35,9 @@
 		],
 		"editor.codeActionsOnSave": {
 			"source.organizeImports": true
+		},
+		"[python]": {
+			"editor.defaultFormatter": "ms-python.black-formatter"
 		},
 	}
 }

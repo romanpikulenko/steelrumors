@@ -6,3 +6,4 @@ __pycache__
 wiki/GENERIC/generic/wiki/GENERIC/generic/build
 *.pyc
 *.ipynb
+db.sqlite3
